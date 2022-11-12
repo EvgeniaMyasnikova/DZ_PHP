@@ -1,0 +1,14 @@
+CREATE TABLE Persons (
+  id INTEGER PRIMARY KEY,
+  name TEXT NOT NULL,
+  age TEXT NOT NULL,
+  address TEXT NOT NULL
+);
+
+INSERT INTO Persons VALUES (0001, 'Анна', 25, 'Москва');
+INSERT INTO Persons VALUES (0002, 'Сергей', 19, 'Питер');
+INSERT INTO Persons VALUES (0003, 'Ольга', 40, 'Киров');
+INSERT INTO Persons VALUES (0004, 'Юлия', 21, 'Пермь');
+INSERT INTO Persons VALUES (0005, 'Альберт', 44, 'Краснодар');
+
+SELECT * FROM Persons;
